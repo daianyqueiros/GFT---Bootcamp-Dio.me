@@ -1,0 +1,369 @@
+PROGRAMAÇÃO ORIENTADA A OBJETOS 
+
+Objetivos: 
+1. explicar porque devemos programar orientado a objetos?
+
+PE VS POO
+1. Paradgma Estruturado foca em operações (funções) e dados
+2. Paradigma orientado a objeto tem um representação mais realita
+
+Vantagens POO:
+- Melhor coesão
+- melhor acoplamento 
+- diminuição do Gap Semântico
+- Coletor de lixo
+
+DEFINIÇÃO: A orientação a objetos é um paradigma de análise, projeto e programação de sistemas do software 
+baseado na composição e interação entre diversas unidades de software chamados de objetos. 
+
+ABSTRAÇÃO: 
+Processo pelo qual se isolam caracteristicas de um objeto, considerando os que tenham em comum certos grupos de objetos. 
+
+REUSO: 
+Capacidade de criar novas unidades de códigos a partir de outras já existentes. 
+
+ENCAPSULAMENTO: 
+Capacidade de esconder complexidades e proteger dados.
+
+ESTRUTURA BÁSICA POO:
+1. Apresentar os conceitos que criam as estruturas básicas da OO: 
+
+- CLASSE: é uma estrutura que abstrai um conjunto de objetos com cacracteristicas similares. Uma classe define o comportamento de seus objetos através de métodos e os estados possíveis destes objetos através de atributos. 
+em outros termos, uma classe descreve os serviços providos por seus objetos e quais informações eles podem armazenar. 
+Exemplos: carro, bolsa, viagem, bola, venda, computador e etc. 
+Dica: Sustantivos, Nome signifcativos, Contexto deve ser considerado
+
+Códigos: 
+- Java = class carro { }
+- C# = class caro { }
+- Python = class carro: pass 
+
+- ATRIBUTOS: É o elemento de uma classe responsável por definir sua estrutura de dados. O conjunto destes será responsável
+por representar suas características e fará parte dos objetos criados a partir da classe.
+Exemplos: Carro = cor, Bola = diametro, Viagem = distancia, computador = memoria, Venda = valor, comprador = nome
+
+Atributo x Variável
+
+A: O que é próprio e peculiar a alguém ou a alguma coisa.
+V: Sujeito a variações ou mudanças; que pode variar; inconstante, instável
+
+Dicas:
+- Substantivos e adjetivos
+- Nome significativos
+- Contexto deve ser considerado
+- Abstração
+- Tipos adequados
+
+- Códigos: 
+-Java = class carro { int portas;} 
+- C# = class carro { int portas;}
+- Python = class carro: portas = 0 
+
+MÉTODO:
+É uma porção de código (sub-rotina) que é disponibilizada pela classe. Este é executado quando é feita uma requisição a ele. Um método serve para identificar quais serviços, ações, 
+que a classe oferece. Eles são responsáveis por definir e realizar um determinado comportamento
+Exemplos: Carro = ligar, Computador = desligar, Venda = calcular total, Comprador = realizar troca.
+
+Criação:
+Java e C# :
+- Visibilidade
+- Retorno
+- Nome
+- Parâmetros
+
+Dicas:
+
+- Verbos
+- Nome significativos
+- Contexto deve ser considerado
+
+Códigos: 
+- JAVA
+class Carro {
+ void frear(){
+   ...
+  }
+}
+
+- C#
+class Carro {
+ void frear(){
+   ...
+  }
+}
+
+- PYTHON
+class Carro:
+    def frear()
+        ...
+
+- Dois métodos especiais: 
+1.Construtor 
+ - JAVA: 
+class Carro {
+ Carro(){
+   ...
+ }
+}
+
+C# :
+class Carro {
+ Carro(){
+   ...
+ }
+}
+
+PYTHON:
+class Carro:
+    def __init__(self):
+        ...
+
+
+2.Destrutor
+JAVA:
+class Carro {
+ void finalize(){
+   ...
+  }
+}
+
+C#:
+class Carro {
+ ~Carro(){
+   ...
+ }
+}
+
+PYTHON:
+class Carro:
+    def __del__(self):
+        ...
+
+Sobrecarga:
+Mudar a assinatura de acordo com a necessidade
+     - Assinatura: nome + parâmetros
+Java: 
+m1()
+m1(int i)
+m1(float f)
+m1(String s, long l)
+m1(long l, String s)
+
+C#: 
+M1()
+M1(int i)
+M1(float f)
+M1(String s, long l)
+M1(long l, String s)
+
+Porque usar?
+
+
+
+
+
+
+Python:
+- def
+- Nome
+- Parâmetros
+
+OBJETO:
+Um objeto é a representação de um conceito/entidade do mundo real, que pode ser física (bola, carro, árvore etc.) ou conceitual (viagem, estoque, compra etc.) e possui um significado bem definido para um determinado software. Para esse 
+conceito/entidade, deve ser definida inicialmente uma classe a partir da qual posteriormente serão
+instanciados objetos distintos.
+
+Criação:
+JAVA - 
+Carro carro = new Carro ();
+
+C#:
+Carro carro = new Carro();
+
+Python 
+carro = Carro()
+ 
+MENSAGEM 
+É o processo de ativação de um método de um objeto. Isto ocorre quando uma requisição (chamada) a esse método é realizada, assim disparando a execução  de seu comportamento descrito por sua classe.
+Pode também ser direcionada diretamente à classe, caso a requisição seja a um método estático
+
+JAVA: 
+Carro carro = new Carro();
+carro.<método>;
+
+Carro.<método>;
+
+C#
+Carro carro = new Carro();
+carro.<método>;
+
+Carro.<método>;
+
+PYTHON
+carro = Carro()
+carro.<método>
+
+Carro.<método>
+
+
+*AS RELAÇÕES*
+
+1. Apresentar os conceitos que ajudam a criar entidades a partir
+de outras entidades:
+Herança
+Associação
+Interface
+
+- HERANÇA: É o relacionamento entre classes em que uma classe chamada de subclasse (classe filha, classe derivada) é uma extensão, um subtipo, de outra classe chamada de superclasse (classe pai, classe mãe, classe base). Devido a isto, a subclasse consegue
+reaproveitar os atributos e métodos dela. Além dos que venham a ser herdados, a subclasse pode definir
+seus próprios membros.
+
+JAVA: 
+class A extends B {
+  ...
+}
+
+C#
+class A : B {
+   ...
+}
+
+PYTHON
+class A(B):
+    ...
+
+Tipos de herança:
+Simples - A classe filha tem só uma classe mãe
+Múltipla - classe filha tem uma ou mais classes mães
+- Java - não tem
+- C# - não tem
+- Python 
+- C++
+
+Upcast e Downcast:
+Upcast
+JAVA = A a = new B();
+C# = A a = new B();
+
+Downcast:
+JAVA = B b = (B)new A();
+C# = B b = (B)new A();
+
+
+Polimorfismo
+"A mesma ação, se comportando diferente."
+
+Códigos:
+Ver exemplo
+
+Sobrescrita
+"A mesma ação, podendo se comportar diferente. "​
+
+Códigos:
+Ver exemplo
+
+Polimorfismo x Sobrescrita
+
+
+
+ASSOCIAÇÃO: 
+Possibilita um relacionamento entre classes/objetos, no qual estes possam pedir ajuda a outras classes/objetos e representar de forma completa o conceito ao qual se destinam. Neste tipo de relacionamento, as classes e os objetos interagem entre si para atingir seus objetivos
+
+Tipos:
+Estrutural
+- Composição - Com Parte Todo = Ex: Pessoa e Endereço
+  * java: 
+class Pessoa {
+  Endereco endereco;
+}
+
+- Agregação -  "Sem Parte Todo" = Ex: Disciplina e Aluno = Ex: Pessoa e Endereço
+*Java: 
+class Disciplina {
+  Aluno aluno;
+}
+
+
+Comportamental
+      - Dependência = Dependência: "Depende de"
+*JAVA: 
+class Compra {
+  ...
+  finalizar(Cupom cupom, ...) {
+   ...
+  }
+}
+
+
+INTERFACE: 
+Define um contrato que deve ser seguido pela classe que a implementa. Quando uma classe implementa uma interface, ela se compromete a realizar todos os comportamentos que a interface disponibiliza
+
+Códigos:
+JAVA:
+interface A {
+  ...
+}
+
+class B implements A {
+  ...
+}
+
+C#
+interface A {
+   ...
+}
+
+class B : A {
+  ...
+}
+
+
+PACOTES: 
+São uma organização física ou lógica criada para separar classes com responsabilidades distintas. Com isso, 
+espera-se que a aplicação fique mais organizada e seja possível separar classes de finalidades
+e representatividades diferentes.
+CÓDIGOS - 
+JAVA: 
+package ...;
+
+import ...;
+
+C# 
+namespace {...}
+
+using ...;
+
+PYTHON:
+__init__.py(2.x)
+
+from ...
+import ...
+
+VISIBILIDADE:
+Um modificador de acesso tem como finalidade determinar até que ponto uma classe, atributo ou método pode ser usado. A
+utilização de modificadores de acesso é fundamental para o uso efetivo da Orientação a Objetos. Algumas boas práticas e
+conceitos só são atingidos com o uso corretos deles.
+
+Tipos:
+Private = Só dentro a classe
+  jAVA E C#:
+private
+
+private int i;
+private void do();
+
+Protected = Dentro da classe, mesmo pacote e subclasses
+  JAVA E C#: 
+protected
+
+protected int i;
+protected void do();
+
+Public = Em qualquer lugar
+
+JAVA E C#:
+public
+
+public int i;
+public void do();
+
