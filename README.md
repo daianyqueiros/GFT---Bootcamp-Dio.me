@@ -14,8 +14,8 @@ Neste Repósitorio estará incluso tudo sobre:
 - Programação Orientada a Objetos
 
 <b><i>🤝 Contribuindo</b></i>
-- Este repositório foi criado para fins de estudo, então contribua com ele.
+- Este repositório foi criado para fins de estudo, então se possível contribua com ele.
 
-<i>Se possível:</i>
+<i>Caso tenha Gostado:</i>
 ⭐️ Star o projeto
 🐛 Encontrar e relatar issues
