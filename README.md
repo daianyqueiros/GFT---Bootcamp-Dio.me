@@ -17,5 +17,7 @@ Neste Repósitorio estará incluso tudo sobre:
 - Este repositório foi criado para fins de estudo, então se possível contribua com ele.
 
 <i>Caso tenha Gostado:</i>
+
 ⭐️ Star o projeto
+
 🐛 Encontrar e relatar issues
