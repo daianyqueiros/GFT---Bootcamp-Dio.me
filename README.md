@@ -12,3 +12,10 @@ Neste Repósitorio estará incluso tudo sobre:
 - Java e anatomia das classes
 
 - Programação Orientada a Objetos
+
+🤝 Contribuindo
+Este repositório foi criado para fins de estudo, então contribua com ele.
+
+Se possível:
+⭐️ Star o projeto
+🐛 Encontrar e relatar issues
