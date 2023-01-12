@@ -1,6 +1,7 @@
 <b><h2># GFT---Bootcamp-Dio.me</b></h2>
 
-![image](https://user-images.githubusercontent.com/109695147/208995821-a89163f2-8f09-4c16-9cc8-cc4ec7e937ab.png) 
+<img src=https://user-images.githubusercontent.com/109695147/208995821-a89163f2-8f09-4c16-9cc8-cc4ec7e937ab.png>
+
 
 <b><i>GFT- Quality Assurance - Bootcamp DIO</b></i>
 
