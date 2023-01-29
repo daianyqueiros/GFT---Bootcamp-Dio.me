@@ -1,7 +1,6 @@
 <b><h2># GFT---Bootcamp-Dio.me</b></h2>
 
-<img src=https://user-images.githubusercontent.com/109695147/208995821-a89163f2-8f09-4c16-9cc8-cc4ec7e937ab.png>
-
+![image](https://user-images.githubusercontent.com/109695147/208995821-a89163f2-8f09-4c16-9cc8-cc4ec7e937ab.png) 
 
 <b><i>GFT- Quality Assurance - Bootcamp DIO</b></i>
 
@@ -13,12 +12,3 @@ Neste Repósitorio estará incluso tudo sobre:
 - Java e anatomia das classes
 
 - Programação Orientada a Objetos
-
-<b><i>🤝 Contribuindo</b></i>
-- Este repositório foi criado para fins de estudo, então se possível contribua com ele.
-
-<i>Caso tenha Gostado:</i>
-
-⭐️ Star o projeto
-
-🐛 Encontrar e relatar issues
